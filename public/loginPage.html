@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huey test page</title>
+    <link rel="stylesheet" href="../src/styles/styles.css">
+    <script src="../src/components/loginPage.js" defer></script>
+</head>
+<body>
+    <h1><center>Bem vindo ao Huey</center></h1>
+    <div id="boxLogin">
+        <h3><center>Digite seu usuário</center></h3>
+        <input type="text" id="user" placeholder="Digite seu usuário">
+
+        <h3>Digite a senha</h3>
+        <input type="password" id="password" placeholder="Digite sua senha">
+
+        <button onclick="login" id="loginButon">Login</button>
+
+        <div id="error"></div>
+    </div>
+    <img src="../assets/login.jpg" alt="Imagem de Login" id="loginImage">
+</body>
+</html>
