@@ -1,4 +1,4 @@
-# huey
+# Huey
 
 ![Huey](https://static.wikia.nocookie.net/villains/images/5/56/4797003-hueyfreeman.png/revision/latest?cb=20200719155657)
 
