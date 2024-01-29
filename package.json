@@ -1,0 +1,24 @@
+{
+  "name": "huey",
+  "version": "1.0.0",
+  "description": "front-end ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gguedes14/huey.git"
+  },
+  "author": "Gabriel Guedes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gguedes14/huey/issues"
+  },
+  "homepage": "https://github.com/gguedes14/huey#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0"
+  }
+}

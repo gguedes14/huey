@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/styles.css">
+    <script src="../src/components/homePage.js" defer></script>
     <title>Home page</title>
 </head>
-<body>
-    <h1>Home Page</h1>
+<body id="homePage">
+    <h1>Crie sua lista de compras</h1>
+    
+    <div id="checkBox">
+    <form>
+        <label>
+            <h2>Arroz</h2>
+            <input type="checkbox" name="rice" id="rice">
+            <input type="number" name="quantity" id="quantity" min="1" value="1">
+        </label>
+        
+        <br>
+        <label>
+            <h2>Feijão</h2>
+            <input type="checkbox" name="bean" id="bean">
+            <input type="number" name="quantity" id="quantity" min="1" value="1">
+        </label>
+        
+        <br>
+        <label>
+            <h2>Macarrão</h2>
+            <input type="checkbox" name="pasta" id="pasta">
+            <input type="number" name="quantity" id="quantity" min="1" value="1">
+        </label>
+        
+        <br>
+
+        <button type="submit" id="addList">Adicionar à lista</button>
+        <button type="menu" id="manageItens">Adicionar novo item</button>
+    </form>
+    </div>
 </body>
 </html>
